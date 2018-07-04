@@ -4,7 +4,7 @@ let table = document.querySelector("table.cast_list");
 // console.log(table);
 let rows = table.querySelectorAll("tr.odd, tr.even");
 
-// console.clear();
+console.clear();
 
 for (let i = 0; i < rows.length; i++){
     var row = rows[i];
